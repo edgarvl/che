@@ -190,6 +190,9 @@ initModule.factory('ETagInterceptor', ($window, $cookies, $q) => {
   };
 });
 
+initModule.config(['ngClipProvider', (ngClipProvider) => {
+  ngClipProvider.setPath("bower_components/zeroclipboard/dist/ZeroClipboard.swf");
+}]);
 
 initModule.config(($mdThemingProvider, jsonColors) => {
 
