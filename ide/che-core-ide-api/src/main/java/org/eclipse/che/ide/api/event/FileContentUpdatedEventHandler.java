@@ -13,6 +13,8 @@ package org.eclipse.che.ide.api.event;
 import com.google.gwt.event.shared.EventHandler;
 
 /**
+ * Handle {@link FileContentUpdatedEvent}
+ *
  * @author Alexander Andrienko
  */
 public interface FileContentUpdatedEventHandler extends EventHandler {

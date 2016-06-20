@@ -15,6 +15,8 @@ import com.google.gwt.event.shared.GwtEvent;
 import org.eclipse.che.ide.api.resources.VirtualFile;
 
 /**
+ * Fires by editor when content is updated.
+ *
  * @author Alexander Andrienko
  */
 public class FileContentUpdatedEvent extends GwtEvent<FileContentUpdatedEventHandler> {
